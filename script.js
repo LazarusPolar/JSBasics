@@ -85,7 +85,7 @@ if(23 == "23"){
 }*/
 
 // Lecture: Boolean Logic and Switch 
-
+/*
 var age = 22; 
 
 if(age < 20){
@@ -116,3 +116,29 @@ switch (job) {
         console.log("Not considered case");
         break;
 }
+*/
+//// CODING CHALLENGE 1 
+
+
+var johnHeight = 120;
+var jakeHeight = 130;
+var julianHeight = 140;
+
+var johnAge = 20;
+var jakeAge = 30;
+var julianAge = 40;
+
+var johnScore = johnHeight + (5 * johnAge);
+var jakeScore = jakeHeight + (5 * jakeAge);
+var julianScore = julianHeight + (5 * julianAge);
+
+if(johnScore > jakeScore && johnScore > julianScore){
+    console.log("John Wins");
+} else if (jakeScore > johnScore && jakeScore > julianScore){
+    console.log("Jake Wins");
+} else if (julianScore > johnScore && julianScore > jakeScore){
+    console.log("Julian Wins");
+} else {
+    console.log("Empate");
+}
+
