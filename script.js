@@ -43,7 +43,7 @@ console.log(lastName);
 alert(name + ' is ' + age + ' years old ' + job + ' Is he married? ' + isMarried);*/
 
 // Lecture: Operators
-var now = 2018;
+/*var now = 2018;
 var birthYear = now - 24;
 birthYear = now - 26 * 2;
 
@@ -58,4 +58,28 @@ ageMark *= 2;
 ageJohn++;
 
 console.log(ageJohn);
-console.log(ageMark);
+console.log(ageMark);*/
+
+// Lecture if/else statements
+
+var name = "John";
+var age = 23;
+var isMarried = 'yes'; 
+
+if(isMarried === 'yes') {
+    console.log(name + ' is married');
+} else {
+    console.log(name + ' will hopefully marry soon.');
+}
+
+isMarried = false;
+
+if(isMarried){
+    console.log(name + ' is married');
+} else {
+    console.log(name + ' will hopefully marry soon.');
+}
+
+if(23 == "23"){
+    console.log("Something");
+}
